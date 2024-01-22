@@ -2,7 +2,7 @@ package homework_2;
 
 import java.util.Scanner;
 
-public class EducationalLevel {
+public class EducationalLevelApp {
     public static void main(String[] args) {
         int grade = new Scanner(System.in).nextInt();
 

@@ -2,7 +2,7 @@ package homework_2;
 
 import java.util.Scanner;
 
-public class SimpleProblem {
+public class SimpleProblemApp {
     public static void main(String[] args) {
         int number = new Scanner(System.in).nextInt();
 

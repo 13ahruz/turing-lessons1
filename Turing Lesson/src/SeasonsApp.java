@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class Main {
-    public static void main(String[] args) {
 
+public class SeasonsApp {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Input ur month number: ");
@@ -12,6 +12,5 @@ public class Main {
                 : "Your month is in summer.";
 
         System.out.print(monthName);
-
     }
 }

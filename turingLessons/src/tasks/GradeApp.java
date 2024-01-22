@@ -22,7 +22,7 @@ public class GradeApp {
         } else if (grade >= 1 && grade <= 50) {
             System.out.println("Your point is F.");
         } else {
-            System.out.println("U f. off");
+            System.out.println("U f. up");
         }
     }
 }

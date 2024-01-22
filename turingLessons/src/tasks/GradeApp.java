@@ -7,7 +7,7 @@ public class GradeApp {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Input grade: ");
-        double grade = sc.nextInt();
+        double grade = sc.nextDouble();
 
         if (grade >= 91 && grade <= 100) {
             System.out.println("Your point is A.");
@@ -22,7 +22,7 @@ public class GradeApp {
         } else if (grade >= 1 && grade <= 50) {
             System.out.println("Your point is F.");
         } else {
-            System.out.println("U f. up");
+            System.out.println("U f. off");
         }
     }
 }

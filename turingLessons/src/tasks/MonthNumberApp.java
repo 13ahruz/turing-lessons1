@@ -36,7 +36,6 @@ public class MonthNumberApp {
         } else {
             System.out.println("Not valid month!");
         }
-
     }
 }
 

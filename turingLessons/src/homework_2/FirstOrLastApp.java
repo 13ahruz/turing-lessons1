@@ -13,6 +13,7 @@ public class FirstOrLastApp {
                 isEqual = true;
             } else if (digit > largestDigit) {
                 largestDigit = digit;
+                isEqual = false;
             }
             num /= 10;
         }

@@ -1,0 +1,11 @@
+package homework_2;
+
+import java.util.Scanner;
+
+public class SimpleProblem {
+    public static void main(String[] args) {
+        int number = new Scanner(System.in).nextInt();
+
+        System.out.print(number / 10 + " " + number % 10);
+    }
+}

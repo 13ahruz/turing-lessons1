@@ -12,7 +12,7 @@ public class DividendApp {
         System.out.println("Input ur second number: ");
         int b = sc.nextInt();
 
-        System.out.print("Reminder of your numbers is: " + a / b);
+        System.out.print("Reminder of your numbers is: " + a % b);
 
     }
 }

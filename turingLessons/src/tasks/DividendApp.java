@@ -1,6 +1,7 @@
 package tasks;
 
 import java.util.Scanner;
+
 public class DividendApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class ConditionalSt2App {
     public static void main(String[] args) {
         int num = new Scanner(System.in).nextInt();
+        int result = 0;
 
         if (num >= 10) {
-            System.out.println(num * num * num + 5 * num);
+            result = num * num * num + 5 * num;
         } else {
-            System.out.println(num * num - 2 * num + 4);
+            result = num * num - 2 * num + 4;
         }
+        System.out.println(result);
     }
 }
 

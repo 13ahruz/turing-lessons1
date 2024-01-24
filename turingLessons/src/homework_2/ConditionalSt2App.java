@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 public class ConditionalSt2App {
     public static void main(String[] args) {
-        int num = new Scanner(System.in).nextInt();
-        int result = 0;
+        Scanner scanner = new Scanner(System.in);
+        long x = scanner.nextInt();
+        long y;
 
-        if (num >= 10) {
-            result = num * num * num + 5 * num;
+        if (x >= 10) {
+            y = x * x * x + 5 * x;
         } else {
-            result = num * num - 2 * num + 4;
+            y = x * x - 2 * x + 4;
         }
-        System.out.println(result);
+
+        System.out.println(y);
     }
 }
 

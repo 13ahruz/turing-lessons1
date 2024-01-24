@@ -1,9 +1,8 @@
 package arrayTasks;
 
-import java.sql.Array;
 import java.util.Scanner;
 
-public class arrayTask1 {
+public class arrayApp {
     public static void main(String[] args) {
         int sum = 0;
         int product = 1;

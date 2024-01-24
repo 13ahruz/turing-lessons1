@@ -2,7 +2,7 @@ package homework_2;
 
 import java.util.Scanner;
 
-public class Divisibility {
+public class DivisibilityApp {
     public static void main(String[] args) {
         String input = new Scanner(System.in).nextLine();
         int num1 = Integer.parseInt(input.split(" ")[0]);

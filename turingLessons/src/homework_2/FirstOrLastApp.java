@@ -5,22 +5,14 @@ import java.util.Scanner;
 public class FirstOrLastApp {
     public static void main(String[] args) {
         int num = new Scanner(System.in).nextInt();
-        int largestDigit = 0;
-        boolean isEqual = false;
-        while (num > 0) {
-            int digit = num % 10;
-            if (digit == largestDigit) {
-                isEqual = true;
-            } else if (digit > largestDigit) {
-                largestDigit = digit;
-                isEqual = false;
-            }
-            num /= 10;
+
+        if (num / 100 > num % 10) {
+            System.out.println(num / 100);
+        } else if (num / 100 < num % 10){
+            System.out.println(num % 10);
         }
-        if (isEqual) {
+        else {
             System.out.println("=");
-        } else {
-            System.out.println(largestDigit);
         }
     }
 }

@@ -24,13 +24,12 @@ public class arrayApp {
             System.out.println(nums[i] * 2);
             sum += nums[i];
             product *= nums[i];
-            if (i % 2 == 0){
+            if (i % 2 == 0) {
                 sumEven += nums[i];
-            }
-            else {
+            } else {
                 productOdd *= nums[i];
             }
-            if (nums[i] > largest){
+            if (nums[i] > largest) {
                 largest = nums[i];
             }
 
@@ -41,6 +40,5 @@ public class arrayApp {
         System.out.println("Product of odds is: " + productOdd);
         System.out.println("Largest is: " + largest);
         System.out.println("Smallest is: " + smallest);
-
     }
 }

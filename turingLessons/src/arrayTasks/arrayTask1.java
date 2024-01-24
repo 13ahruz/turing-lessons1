@@ -21,7 +21,7 @@ public class arrayTask1 {
             nums[i] = new Scanner(System.in).nextInt();
             smallest = nums[i];
         }
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < num; i++) {
             System.out.println(nums[i] * 2);
             sum += nums[i];
             product *= nums[i];

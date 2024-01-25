@@ -2,7 +2,7 @@ package arrayTasks;
 
 import java.util.Scanner;
 
-public class arrayBeginingApp {
+public class ArrayBeginingApp {
     public static void main(String[] args) {
         int sum = 0;
         int product = 1;
